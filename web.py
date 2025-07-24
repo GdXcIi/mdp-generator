@@ -13,9 +13,8 @@ if st.button("Generate Password"):
 
     try:
         with st.spinner("Generating password..."):
-            time.sleep(1.5)
-
             st.markdown("---")
+            time.sleep(3)
             st.success(f"Generated Password: **{password}**")
             st.info("Nombre de caractères: **" + str(len(password)) + "**")
     
